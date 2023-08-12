@@ -2,6 +2,7 @@ import adguard from "./adguard/widget";
 import audiobookshelf from "./audiobookshelf/widget";
 import authentik from "./authentik/widget";
 import autobrr from "./autobrr/widget";
+import azuredevops from "./azuredevops/widget";
 import bazarr from "./bazarr/widget";
 import caddy from "./caddy/widget";
 import changedetectionio from "./changedetectionio/widget";
@@ -16,7 +17,9 @@ import evcc from "./evcc/widget";
 import fileflows from "./fileflows/widget";
 import flood from "./flood/widget";
 import freshrss from "./freshrss/widget";
+import gamedig from "./gamedig/widget";
 import ghostfolio from "./ghostfolio/widget";
+import glances from "./glances/widget";
 import gluetun from "./gluetun/widget";
 import gotify from "./gotify/widget";
 import grafana from "./grafana/widget";
@@ -37,6 +40,7 @@ import medusa from "./medusa/widget";
 import minecraft from "./minecraft/widget";
 import miniflux from "./miniflux/widget";
 import mikrotik from "./mikrotik/widget";
+import mjpeg from "./mjpeg/widget";
 import moonraker from "./moonraker/widget";
 import mylar from "./mylar/widget";
 import navidrome from "./navidrome/widget";
@@ -86,12 +90,14 @@ import uptimekuma from "./uptimekuma/widget";
 import watchtower from "./watchtower/widget";
 import whatsupdocker from "./whatsupdocker/widget";
 import xteve from "./xteve/widget";
+import urbackup from "./urbackup/widget";
 
 const widgets = {
   adguard,
   audiobookshelf,
   authentik,
   autobrr,
+  azuredevops,
   bazarr,
   caddy,
   changedetectionio,
@@ -106,7 +112,9 @@ const widgets = {
   fileflows,
   flood,
   freshrss,
+  gamedig,
   ghostfolio,
+  glances,
   gluetun,
   gotify,
   grafana,
@@ -128,6 +136,7 @@ const widgets = {
   minecraft,
   miniflux,
   mikrotik,
+  mjpeg,
   moonraker,
   mylar,
   navidrome,
@@ -175,6 +184,7 @@ const widgets = {
   unifi_console: unifi,
   unmanic,
   uptimekuma,
+  urbackup,
   watchtower,
   whatsupdocker,
   xteve,

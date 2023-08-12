@@ -162,7 +162,8 @@
         "playing": "Αναπαράγει",
         "transcoding": "Μετακωδικοποίηση",
         "bitrate": "Ρυθμός bit",
-        "no_active": "Δεν υπάρχουν ενεργές ροές"
+        "no_active": "Δεν υπάρχουν ενεργές ροές",
+        "plex_connection_error": "Έλεγχος Σύνδεσης με Plex"
     },
     "nzbget": {
         "rate": "Ρυθμός",
@@ -207,8 +208,8 @@
         "series": "Σειρές",
         "wanted": "Επιθυμούντε",
         "queued": "Σε σειρά",
-        "queue": "Queue",
-        "unknown": "Unknown"
+        "queue": "Ούρα",
+        "unknown": "Άγνωστο"
     },
     "downloadstation": {
         "download": "Μεταφόρτωση",
@@ -221,13 +222,13 @@
         "missing": "Απουσιάζει",
         "queued": "Σε σειρά",
         "movies": "Ταινίες",
-        "queue": "Queue",
-        "unknown": "Unknown"
+        "queue": "Ουρά",
+        "unknown": "Άγνωστο"
     },
     "lidarr": {
         "wanted": "Θέλετε",
         "queued": "Στη σειρά",
-        "artists": "Artists"
+        "artists": "Καλλιτέχνες"
     },
     "readarr": {
         "wanted": "Θέλετε",
@@ -368,7 +369,13 @@
         "total": "Total",
         "free": "Free",
         "used": "Used",
-        "load": "Load"
+        "load": "Load",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "quicklaunch": {
         "bookmark": "Bookmark",
@@ -614,7 +621,7 @@
         "systemTempC": "Θερμοκρασία συστήματος",
         "poolUsage": "Χρήση πισίνας",
         "volumeUsage": "Volume Usage",
-        "invalid": "Invalid"
+        "invalid": "Μη έγκυρο"
     },
     "pfsense": {
         "load": "Load Avg",
@@ -654,5 +661,36 @@
     "kavita": {
         "seriesCount": "Series",
         "totalFiles": "Files"
+    },
+    "gamedig": {
+        "name": "Name",
+        "map": "Map",
+        "currentPlayers": "Current players",
+        "players": "Players",
+        "maxPlayers": "Max players",
+        "bots": "Bots",
+        "ping": "Ping",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
+    },
+    "azuredevops": {
+        "myPrs": "My PRs",
+        "approved": "Approved",
+        "result": "Result",
+        "status": "Status",
+        "buildId": "Build ID",
+        "succeeded": "Succeeded",
+        "notStarted": "Not Started",
+        "failed": "Failed",
+        "canceled": "Canceled",
+        "inProgress": "In Progress",
+        "totalPrs": "Total PRs"
+    },
+    "urbackup": {
+        "ok": "Ok",
+        "errored": "Errors",
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage"
     }
 }

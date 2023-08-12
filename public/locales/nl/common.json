@@ -72,7 +72,8 @@
         "playing": "Afspelen",
         "transcoding": "Transcodering",
         "bitrate": "Bitsnelheid",
-        "no_active": "Geen Actieve Streams"
+        "no_active": "Geen Actieve Streams",
+        "plex_connection_error": "Check Plex Connection"
     },
     "rutorrent": {
         "active": "Actief",
@@ -247,7 +248,13 @@
         "warn": "Warn",
         "total": "Total",
         "free": "Free",
-        "used": "Used"
+        "used": "Used",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "changedetectionio": {
         "totalObserved": "Totaal waargenomen",
@@ -654,5 +661,36 @@
     "kavita": {
         "seriesCount": "Series",
         "totalFiles": "Files"
+    },
+    "gamedig": {
+        "name": "Name",
+        "map": "Map",
+        "currentPlayers": "Current players",
+        "players": "Players",
+        "maxPlayers": "Max players",
+        "bots": "Bots",
+        "ping": "Ping",
+        "online": "Online",
+        "status": "Status",
+        "offline": "Offline"
+    },
+    "azuredevops": {
+        "result": "Result",
+        "status": "Status",
+        "buildId": "Build ID",
+        "succeeded": "Succeeded",
+        "notStarted": "Not Started",
+        "failed": "Failed",
+        "canceled": "Canceled",
+        "inProgress": "In Progress",
+        "totalPrs": "Total PRs",
+        "myPrs": "My PRs",
+        "approved": "Approved"
+    },
+    "urbackup": {
+        "ok": "Ok",
+        "errored": "Errors",
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage"
     }
 }

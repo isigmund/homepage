@@ -25,7 +25,13 @@
         "warn": "Warn",
         "total": "Total",
         "free": "Free",
-        "used": "Used"
+        "used": "Used",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "autobrr": {
         "filters": "フィルター",
@@ -136,7 +142,8 @@
         "playing": "再生中",
         "transcoding": "変換中",
         "bitrate": "ビットレート",
-        "no_active": "アクティブストリームなし"
+        "no_active": "アクティブストリームなし",
+        "plex_connection_error": "Check Plex Connection"
     },
     "omada": {
         "connectedAp": "接続されたAP",
@@ -654,5 +661,36 @@
     "kavita": {
         "seriesCount": "Series",
         "totalFiles": "Files"
+    },
+    "gamedig": {
+        "name": "Name",
+        "map": "Map",
+        "currentPlayers": "Current players",
+        "players": "Players",
+        "maxPlayers": "Max players",
+        "bots": "Bots",
+        "ping": "Ping",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
+    },
+    "azuredevops": {
+        "result": "Result",
+        "status": "Status",
+        "buildId": "Build ID",
+        "succeeded": "Succeeded",
+        "notStarted": "Not Started",
+        "failed": "Failed",
+        "canceled": "Canceled",
+        "inProgress": "In Progress",
+        "totalPrs": "Total PRs",
+        "myPrs": "My PRs",
+        "approved": "Approved"
+    },
+    "urbackup": {
+        "ok": "Ok",
+        "errored": "Errors",
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage"
     }
 }

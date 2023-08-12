@@ -129,7 +129,8 @@
         "playing": "Playing",
         "transcoding": "Transcoding",
         "bitrate": "Bitrate",
-        "no_active": "No Active Streams"
+        "no_active": "No Active Streams",
+        "plex_connection_error": "Check Plex Connection"
     },
     "omada": {
         "connectedAp": "Connected APs",
@@ -370,7 +371,13 @@
         "free": "Free",
         "used": "Used",
         "days": "d",
-        "hours": "h"
+        "hours": "h",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "quicklaunch": {
         "bookmark": "Bookmark",
@@ -648,7 +655,7 @@
     "homeassistant": {
         "people_home": "People Home",
         "lights_on": "Lights On",
-        "switches_on": "fdasfSwitches On"
+        "switches_on": "Switches On"
     },
     "whatsupdocker": {
         "monitoring": "Monitoring",
@@ -673,5 +680,36 @@
         "watt": "W",
         "on": "On",
         "off": "Off"
+    },
+    "azuredevops": {
+        "result": "Result",
+        "status": "Status",
+        "buildId": "Build ID",
+        "succeeded": "Succeeded",
+        "notStarted": "Not Started",
+        "failed": "Failed",
+        "canceled": "Canceled",
+        "inProgress": "In Progress",
+        "totalPrs": "Total PRs",
+        "myPrs": "My PRs",
+        "approved": "Approved"
+    },
+    "gamedig": {
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline",
+        "name": "Name",
+        "map": "Map",
+        "currentPlayers": "Current players",
+        "players": "Players",
+        "maxPlayers": "Max players",
+        "bots": "Bots",
+        "ping": "Ping"
+    },
+    "urbackup": {
+        "ok" : "Ok",
+        "errored": "Errors",
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage"
     }
 }

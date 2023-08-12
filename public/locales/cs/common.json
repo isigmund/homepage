@@ -46,8 +46,8 @@
     },
     "unifi": {
         "users": "Uživatelé",
-        "uptime": "Doba provozu systému",
-        "days": "Dnů",
+        "uptime": "Doba provozu",
+        "days": "dní",
         "wan": "WAN",
         "lan": "LAN",
         "wlan": "WLAN",
@@ -56,8 +56,8 @@
         "wlan_devices": "Zařízení WLAN",
         "lan_users": "Uživatelé LAN",
         "wlan_users": "Uživatelé WLAN",
-        "up": "BĚŽÍ",
-        "down": "NEBĚŽÍ",
+        "up": "FUNKČNÍ",
+        "down": "NEFUNKČNÍ",
         "wait": "Počkejte prosím",
         "empty_data": "Stav podsystému neznámý"
     },
@@ -95,7 +95,8 @@
         "playing": "Přehrává",
         "transcoding": "Překódovávání",
         "bitrate": "Přenosová rychlost",
-        "no_active": "Žádný aktivní stream"
+        "no_active": "Žádný aktivní stream",
+        "plex_connection_error": "Check Plex Connection"
     },
     "nzbget": {
         "rate": "Rychlost",
@@ -321,7 +322,13 @@
         "free": "Free",
         "used": "Used",
         "load": "Load",
-        "warn": "Warn"
+        "warn": "Warn",
+        "crit": "Crit",
+        "read": "Read",
+        "write": "Write",
+        "gpu": "GPU",
+        "mem": "Mem",
+        "swap": "Swap"
     },
     "quicklaunch": {
         "bookmark": "Záložka",
@@ -654,5 +661,36 @@
     "kavita": {
         "seriesCount": "Series",
         "totalFiles": "Files"
+    },
+    "gamedig": {
+        "map": "Map",
+        "currentPlayers": "Current players",
+        "name": "Name",
+        "players": "Players",
+        "maxPlayers": "Max players",
+        "bots": "Bots",
+        "ping": "Ping",
+        "status": "Status",
+        "online": "Online",
+        "offline": "Offline"
+    },
+    "azuredevops": {
+        "result": "Result",
+        "status": "Status",
+        "buildId": "Build ID",
+        "succeeded": "Succeeded",
+        "notStarted": "Not Started",
+        "failed": "Failed",
+        "canceled": "Canceled",
+        "inProgress": "In Progress",
+        "totalPrs": "Total PRs",
+        "myPrs": "My PRs",
+        "approved": "Approved"
+    },
+    "urbackup": {
+        "ok": "Ok",
+        "errored": "Errors",
+        "noRecent": "Out of Date",
+        "totalUsed": "Used Storage"
     }
 }
