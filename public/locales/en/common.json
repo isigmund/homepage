@@ -663,5 +663,15 @@
     "kavita": {
         "seriesCount": "Series",
         "totalFiles": "Files"
+    },
+    "shelly": {
+        "channel_1": "Channel 1",
+        "channel_2": "Channel 2",
+        "fw_update": "Firmware",
+        "up_to_date": "Up to date",
+        "available": "Available",
+        "watt": "W",
+        "on": "On",
+        "off": "Off"
     }
 }

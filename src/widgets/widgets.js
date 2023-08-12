@@ -69,6 +69,7 @@ import readarr from "./readarr/widget";
 import rutorrent from "./rutorrent/widget";
 import sabnzbd from "./sabnzbd/widget";
 import scrutiny from "./scrutiny/widget";
+import shelly from "./shelly/widget";
 import sonarr from "./sonarr/widget";
 import speedtest from "./speedtest/widget";
 import strelaysrv from "./strelaysrv/widget";
@@ -159,6 +160,7 @@ const widgets = {
   rutorrent,
   sabnzbd,
   scrutiny,
+  shelly,
   sonarr,
   speedtest,
   strelaysrv,
